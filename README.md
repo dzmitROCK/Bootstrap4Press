@@ -11,6 +11,9 @@
 5. `yarn start` or `npm run start` development mode. sourcemaps, no minify and other.
 6. `yarn build` or `npm run build` production mode. No serv, no sourcemaps, minify and other. 
 
+Develop folder `src`  
+Production folder `dist`  
+
 ### Theme includes
 
 - Bootstrap `4.1.1`
