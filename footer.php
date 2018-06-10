@@ -14,18 +14,22 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'bootstrap4press' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'bootstrap4press' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'bootstrap4press' ), 'bootstrap4press', '<a href="https://dzmitrock.ru">DzmitRock</a>' );
-				?>
+		<div class="site-info container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'bootstrap4press' ) ); ?>">
+						<?php
+						/* translators: %s: CMS name, i.e. WordPress. */
+						printf( esc_html__( 'Proudly powered by %s', 'bootstrap4press' ), 'WordPress' );
+						?>
+					</a>
+					<span class="sep"> | </span>
+						<?php
+						/* translators: 1: Theme name, 2: Theme author. */
+						printf( esc_html__( 'Theme: %1$s by %2$s.', 'bootstrap4press' ), 'bootstrap4press', '<a href="https://dzmitrock.ru">DzmitRock</a>' );
+						?>
+				</div>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

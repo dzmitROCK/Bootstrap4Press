@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import Popper from 'popper.js';
 
-
 // import 'bootstrap'
 
 import 'bootstrap/js/src/util';
@@ -17,9 +16,6 @@ import 'bootstrap/js/src/scrollspy';
 import 'bootstrap/js/src/tab';
 import 'bootstrap/js/src/tooltip';
 
-// import '../scss/app.scss';
-
 $(document).ready(function () {
     console.log('Hello Bootstrap4Press');
-    $('[data-toggle="tooltip"]').tooltip()
 })

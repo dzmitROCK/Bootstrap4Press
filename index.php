@@ -17,15 +17,21 @@ get_header();
 <div class="container">
 	<div id="primary" class="content-area row">
 		<main id="main" class="site-main col-md-8">
-			<div class="test-icons" style="font-size: 5rem;">
+			<!-- test fontawesome -->
+			<div class="alert alert-info alert-dismissible fade show" style="font-size: 5rem;">
+				<p class="h1"><?php bloginfo( 'description' ); ?></p>
 				<i class="fab fa-gulp" style="color: #E44E48;"></i>
-				<i class="fas fa-plus"></i>
-				<i class="fab fa-wordpress"></i>
-				<i class="fas fa-plus"></i>
+				<i class="fas fa-plus" style="color: gray;"></i>
+				<i class="fab fa-wordpress" style="color: black"></i>
+				<i class="fas fa-plus" style="color: gray;"></i>
 				<i class="fab fa-font-awesome-alt" style="color: #2189E6;"></i>
-				<i class="fas fa-equals"></i>
+				<i class="fas fa-equals" style="color: gray;"></i>
 				<i class="far fa-heart" style="color: red;"></i>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
 			</div>
+			<!-- ###test fontawesome -->
 			<?php
 		if ( have_posts() ) :
 

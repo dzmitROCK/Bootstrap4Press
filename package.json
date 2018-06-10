@@ -2,7 +2,7 @@
   "name": "Bootstrap4Press",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@gitlab.com:Dzmitrock/Bootstrap4Press.git",
+  "repository": "git@github.com:dzmitROCK/Bootstrap4Press.git",
   "author": "dzmitrock <besfamilny@dzmitrock.ru>",
   "license": "MIT",
   "scripts": {

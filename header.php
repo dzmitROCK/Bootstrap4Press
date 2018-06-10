@@ -25,13 +25,24 @@
 
 	<header id="masthead" class="site-header">
 
-		<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
 		  <div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<?php $logo_img = '';
+						if( $custom_logo_id = get_theme_mod('custom_logo') ){
+							$logo_img = wp_get_attachment_image( $custom_logo_id, 'full', false, array(
+								'class'    => 'custom-logo',
+								'itemprop' => 'logo',
+							) );
+						}
+						echo $logo_img;
+					?>
+					<?php bloginfo( 'name' ); ?>
+				</a>
 					<?php
 					wp_nav_menu( array(
 						'theme_location'    => 'primary',
