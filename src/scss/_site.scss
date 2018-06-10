@@ -1,14 +1,16 @@
 img {
-	max-width: 100%;
-	height: auto;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
 }
 
 #content {
-    margin: {
-    	top:  2rem;
-    	bottom: 1rem;
-    }
+		margin: {
+				top: 2rem;
+				bottom: 1rem;
+		}
 }
+
 #colophon {
-	padding: 2rem 0;
+		padding: 2rem 0;
 }

@@ -1,2 +1,4 @@
 node_modules
-*.pot~
+*.pot\~
+*.po\~
+*.log

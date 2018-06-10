@@ -33,7 +33,7 @@ add_filter( 'comment_form_default_fields', 'bootstrap4press_comment_form_fields'
 if ( ! function_exists( 'bootstrap4press_comment_form' ) ) {
 	function bootstrap4press_comment_form() {
 		$args['comment_field'] = '<div class="form-group comment-form-comment">
-	    <label for="comment">' . __( 'Comment:', 'bootstrap4press' ) . ( ' <span class="required">*</span>' ) . '</label>
+	    <label for="comment">' . __( 'Comment:&nbsp;', 'bootstrap4press' ) . ( ' <span class="required">*</span>' ) . '</label>
 	    <textarea class="form-control" id="comment" name="comment" aria-required="true" cols="45" rows="8"></textarea>
 	    </div>';
 		$args['class_submit']  = 'btn btn-secondary'; // since WP 4.1.
