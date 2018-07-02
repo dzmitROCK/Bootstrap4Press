@@ -26,7 +26,7 @@
 					<span class="sep"> | </span>
 						<?php
 						/* translators: 1: Theme name, 2: Theme author. */
-						printf( esc_html__( 'Theme: %1$s by %2$s.', 'bootstrap4press' ), 'bootstrap4press', '<a href="https://dzmitrock.ru">DzmitRock</a>' );
+						printf( esc_html__( 'Theme: %1$s by %2$s.', 'bootstrap4press' ), 'Bootstrap4Press', '<a href="https://dzmitrock.ru">DzmitRock</a>' );
 						?>
 				</div>
 			</div>

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2018-06-10 13:30+0000\n"
+"POT-Creation-Date: 2018-07-02 00:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -184,22 +184,13 @@ msgstr ""
 msgid "Comment:&nbsp;"
 msgstr ""
 
-msgid "Name"
+msgid "Error, duplicate 1: We'll never share your email with anyone else."
 msgstr ""
 
-msgid "Email"
+msgid "This name will be displayed in the comment."
 msgstr ""
 
-msgid "Website"
-msgstr ""
-
-msgid "We\\'ll never share your email with anyone else."
-msgstr ""
-
-msgid "This name will be displayed in the comment"
-msgstr ""
-
-msgid "Link to your website"
+msgid "Link to your website."
 msgstr ""
 
 # Pagination Prev
@@ -211,4 +202,25 @@ msgid "&raquo;"
 msgstr ""
 
 msgid "Posts navigation"
+msgstr ""
+
+msgid "Error, duplicate 1: This name will be displayed in the comment"
+msgstr ""
+
+msgid "We'll never share your email with anyone else."
+msgstr ""
+
+msgid "Error, duplicate 1: Link to your website"
+msgstr ""
+
+msgid "Your name"
+msgstr ""
+
+msgid "Your email"
+msgstr ""
+
+msgid "Your website"
+msgstr ""
+
+msgid "Search"
 msgstr ""

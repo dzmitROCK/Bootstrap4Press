@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2018-06-10 13:05+0000\n"
+"POT-Creation-Date: 2018-07-02 00:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-06-10 13:06+0000\n"
+"PO-Revision-Date: 2018-07-02 00:59+0000\n"
 "Last-Translator: admin <deamonsda@gmail.com>\n"
 "Language-Team: Русский\n"
 "X-Generator: Loco https://localise.biz/\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Упс! Эта страница не найдена."
 
 #: 404.php:21
 msgid ""
@@ -33,7 +33,7 @@ msgstr ""
 #. translators: %1$s: smiley
 #: 404.php:47
 msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
+msgstr "Попробуйте посмотреть в ежемесячных архивах. %1$s"
 
 #. translators: 1: title.
 #: comments.php:34
@@ -42,7 +42,7 @@ msgstr ""
 
 #: comments.php:67
 msgid "Comments are closed."
-msgstr ""
+msgstr "Комментарии закрыты."
 
 #: footer.php:18
 msgid "https://wordpress.org/"
@@ -51,12 +51,12 @@ msgstr ""
 #. translators: %s: CMS name, i.e. WordPress.
 #: footer.php:20
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Работает на %s"
 
 #. translators: 1: Theme name, 2: Theme author.
 #: footer.php:25
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Тема: %1$s, автор %2$s."
 
 #: functions.php:47
 msgid "Primary"
@@ -68,11 +68,11 @@ msgstr ""
 
 #: functions.php:107
 msgid "Add widgets here."
-msgstr ""
+msgstr "Добавьте виджеты сюда."
 
 #: header.php:24
 msgid "Skip to content"
-msgstr ""
+msgstr "Перейти к содержанию"
 
 #: header.php:45
 msgid "Primary Menu"
@@ -101,34 +101,38 @@ msgstr ""
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:89 template-parts/content-page.php:35
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "Радактировать <span class=\"screen-reader-text\">%s</span>"
 
 #. translators: %s: search query.
 #: search.php:21
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Результаты поиска: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ничего не найдено"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:25
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начните здесь</a>."
 
 #: template-parts/content-none.php:38
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Извините, но ничто не соответствовало вашим условиям поиска. Пожалуйста, "
+"попытайтесь снова с другими ключевыми словами."
 
 #: template-parts/content-none.php:44
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
 
 #: template-parts/content-page.php:22 template-parts/content.php:45
 msgid "Pages:"
@@ -137,15 +141,7 @@ msgstr ""
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content.php:34
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "_s"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://underscores.me/"
-msgstr ""
+msgstr "Продолжить чтение<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #. Description of the plugin/theme
 msgid ""
@@ -176,13 +172,13 @@ msgstr[2] ""
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Опубликовано %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:35
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "автором %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:59
@@ -192,3 +188,44 @@ msgstr ""
 
 msgid "Comment:&nbsp;"
 msgstr "Комментарий:&nbsp;"
+
+msgid "Error, duplicate 1: We'll never share your email with anyone else."
+msgstr ""
+
+msgid "This name will be displayed in the comment."
+msgstr ""
+
+msgid "Link to your website."
+msgstr ""
+
+# Pagination Prev
+msgid "&laquo;"
+msgstr ""
+
+# Pagination Next
+msgid "&raquo;"
+msgstr ""
+
+msgid "Posts navigation"
+msgstr ""
+
+msgid "Error, duplicate 1: This name will be displayed in the comment"
+msgstr ""
+
+msgid "We'll never share your email with anyone else."
+msgstr ""
+
+msgid "Error, duplicate 1: Link to your website"
+msgstr ""
+
+msgid "Your name"
+msgstr "Ваше имя"
+
+msgid "Your email"
+msgstr "Ваш email"
+
+msgid "Your website"
+msgstr "Ваш сайт"
+
+msgid "Search"
+msgstr "Поиск"
