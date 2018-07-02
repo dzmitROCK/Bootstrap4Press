@@ -1,0 +1,15 @@
+DEVURL:
+  "http://localhost/bootstrap4press.loc"
+
+PATH:
+  src: "./src"
+  prod: "./dist"
+
+SASSINCLUDE:
+  - "./node_modules/bootstrap/scss"
+  - "./node_modules/@fortawesome/fontawesome-free-webfonts/scss/"
+
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+  - "ios >= 7"

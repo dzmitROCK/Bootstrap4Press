@@ -17,6 +17,7 @@ get_header();
 <div class="container">
 	<div id="primary" class="content-area row">
 		<main id="main" class="site-main col-md-8">
+
 			<!-- test fontawesome -->
 			<div class="alert alert-info alert-dismissible fade show" style="font-size: 5rem;">
 				<p class="h1"><?php bloginfo( 'description' ); ?></p>
@@ -32,6 +33,11 @@ get_header();
 			  </button>
 			</div>
 			<!-- ###test fontawesome -->
+
+			<!-- test image -->
+			<img src="<?= get_template_directory_uri() ?>/dist/images/test-image.jpg">
+			<!-- ###test image -->
+
 			<?php
 		if ( have_posts() ) :
 

@@ -1,3 +1,4 @@
+gulp-config.yaml
 node_modules
 *.pot\~
 *.po\~
