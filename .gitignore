@@ -1,5 +1,7 @@
 gulp-config.yaml
 node_modules
+yarn.lock
+package-lock.json
 *.pot\~
 *.po\~
 *.log

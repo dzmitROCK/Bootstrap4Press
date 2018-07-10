@@ -29,8 +29,10 @@ gulp.task('plug', () => {
  */
 function loadConfig() {
 		log(colors.green('Loading config file...'));
+
 		let defaultConf = 'gulp-default-config.yaml';
 		let customProjectConf = 'gulp-config.yaml';
+
 		if (checkFileExists(customProjectConf)) {
 				// load custom project config
 				log(`Ok. I'm load "${customProjectConf}" ...`.green);
@@ -195,7 +197,7 @@ function watch() {
 				notify: false,
 		});
 
-		gulp.watch(`${PATH.src}/js/app.js`, js).on('change', reload);
+		gulp.watch(`${PATH.src}/js/app.js`, gulp.series(js, reload));
 		gulp.watch(`${PATH.src}/scss/**/*.scss`, sass);
 		gulp.watch(`${PATH.src}/images/**/*.{png,jpg,jpeg,gif,svg}`, gulp.series(images, reload));
 }

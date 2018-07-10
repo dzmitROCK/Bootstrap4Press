@@ -18,4 +18,4 @@ import 'bootstrap/js/src/tooltip';
 
 $(document).ready(function () {
     console.log('Hello Bootstrap4Press');
-})
+});
