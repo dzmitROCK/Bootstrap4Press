@@ -197,7 +197,7 @@ function watch() {
 				notify: false,
 		});
 
-		gulp.watch(`${PATH.src}/js/app.js`, gulp.series(js, reload));
+		gulp.watch(`${PATH.src}/js/**/*.js`, gulp.series(js, reload));
 		gulp.watch(`${PATH.src}/scss/**/*.scss`, sass);
 		gulp.watch(`${PATH.src}/images/**/*.{png,jpg,jpeg,gif,svg}`, gulp.series(images, reload));
 }

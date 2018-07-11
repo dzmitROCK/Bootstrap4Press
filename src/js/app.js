@@ -1,20 +1,13 @@
 import $ from 'jquery';
-import Popper from 'popper.js';
 
-// import 'bootstrap'
+window.$ = $;
 
-import 'bootstrap/js/src/util';
-import 'bootstrap/js/src/alert';
-import 'bootstrap/js/src/button';
-import 'bootstrap/js/src/carousel';
-import 'bootstrap/js/src/collapse';
-import 'bootstrap/js/src/dropdown';
-import 'bootstrap/js/src/index';
-import 'bootstrap/js/src/modal';
-import 'bootstrap/js/src/popover';
-import 'bootstrap/js/src/scrollspy';
-import 'bootstrap/js/src/tab';
-import 'bootstrap/js/src/tooltip';
+import 'bootstrap';
+/**
+ * If you want to pick and choose which modules to include, 
+ * comment out the above and uncomment the line below
+ */
+// import './libs/bootstrap-modules';
 
 $(document).ready(function () {
     console.log('Hello Bootstrap4Press');
