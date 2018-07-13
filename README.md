@@ -7,19 +7,19 @@
 1. `git clone this-theme`
 2. `cd this-theme`
 3. `yarn` or `npm i`
-4. open `gulpfile.config.js` and replace your localhost URL
+4. create file `gulp-config.yaml` and copy all content from `gulp-config.yaml` correcting DEVURL
 5. `yarn start` or `npm run start` development mode. sourcemaps, no minify and other.
-6. `yarn build` or `npm run build` production mode. No serv, no sourcemaps, minify and other. 
+6. `yarn build` or `npm run build` production mode. No serv, no sourcemaps, minify and other.
 
-Develop folder `src`  
-Production folder `dist`  
+Develop folder `src`
+Production folder `dist`
 
 ### Theme includes
 
 - Bootstrap `4.1.1`
 - jQuery `3.3.1`
 - FontAwesome `5`
-- Popper.js `1.14.3` 
+- Popper.js `1.14.3`
 
 ### Project Builder
 
