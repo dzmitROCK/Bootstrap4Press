@@ -1,5 +1,7 @@
 # Starting theme for WordPress, Bootstrap4Press!!!
 
+![Bootstrap 4 + WordPress](https://raw.githubusercontent.com/dzmitROCK/Bootstrap4Press/master/screenshot.png "Bootstrap 4 + WordPress")
+
 ## Theme based on http://underscores.me/
 
 ### How start coding?
