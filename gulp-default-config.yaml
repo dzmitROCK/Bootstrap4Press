@@ -7,7 +7,7 @@ PATH:
 
 SASSINCLUDE:
   - "./node_modules/bootstrap/scss"
-  - "./node_modules/@fortawesome/fontawesome-free-webfonts/scss/"
+  - "./node_modules/@fortawesome/fontawesome-free/scss/"
 
 COMPATIBILITY:
   - "last 2 versions"

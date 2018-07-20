@@ -163,8 +163,8 @@ function copyJquery() {
 }
 
 function copyFontAwesome() {
-		return gulp.src('node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/**/*')
-				.pipe(gulp.dest(`${PATH.prod}/webfonts`))
+		return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/**/*.{eot,svg,ttf,woff,woff2}')
+				.pipe(gulp.dest(`${PATH.prod}/fonts`))
 };
 
 
